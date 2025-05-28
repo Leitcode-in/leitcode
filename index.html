@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leitcode – AI Services for Businesses</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta name="description" content="Leitcode empowers businesses with innovative, affordable, and scalable software and AI solutions. Simplifying technology adoption for startups and small enterprises." />
     <link rel="icon" type="image/png" href="/assets/favicon.png" />
 </head>
@@ -14,14 +14,16 @@
 <body>
     <header class="hero">
         <nav class="navbar" aria-label="Main Navigation">
-            <div class="logo">Leitcode</div>
-            <button class="mobile-menu-btn" aria-label="Toggle mobile menu">☰</button>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#contact" class="cta-btn" aria-label="Get Started">Get Started</a>
+            <div class="navbar-inner">
+                <div class="logo">Leitcode</div>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="cta-btn" aria-label="Get Started">Get Started</a>
+            </div>
         </nav>
         <div class="hero-content">
             <h1>AI Solutions Tailored for Your Business</h1>
@@ -44,100 +46,43 @@
             <div class="service-grid">
                 <div class="service">
                     <div class="service-icon">🤖</div>
-                    <h3>AI & Automation Services</h3>
-                    <div class="service-objective">Boost productivity, customer experience, and decision-making with AI.</div>
-                    <ul class="service-list">
-                        <li>AI Chatbots for websites, WhatsApp & Instagram</li>
-                        <li>Workflow automation (emails, sales, inventory)</li>
-                        <li>AI-powered data analytics & reporting</li>
-                        <li>Custom GPT-based tools (knowledge assistants, AI agents)</li>
-                        <li>Image/voice recognition systems</li>
-                        <li>Personalized recommendation engines</li>
-                    </ul>
+                    <h3>AI & Automation</h3>
+                    <div class="service-objective">Boost productivity and automate your business with AI.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">💻</div>
                     <h3>Web Development</h3>
-                    <div class="service-objective">Fast, modern, and visually impressive websites tailored to your needs.</div>
-                    <ul class="service-list">
-                        <li>Business websites & landing pages</li>
-                        <li>E-commerce platforms (with payment & shipping)</li>
-                        <li>Portfolio & personal branding sites</li>
-                        <li>Admin dashboards and analytics portals</li>
-                        <li>SEO optimization & speed tuning</li>
-                    </ul>
+                    <div class="service-objective">Modern, fast, and impressive websites for your brand.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">📱</div>
-                    <h3>Mobile App Development</h3>
-                    <div class="service-objective">Engaging Android & iOS apps that solve real business problems.</div>
-                    <ul class="service-list">
-                        <li>Full-stack mobile app development</li>
-                        <li>Cross-platform apps (React Native/Flutter)</li>
-                        <li>E-commerce, booking, service, or productivity apps</li>
-                        <li>Push notification, GPS, chat, payment integration</li>
-                        <li>App maintenance & updates</li>
-                    </ul>
+                    <h3>Mobile Apps</h3>
+                    <div class="service-objective">Engaging Android & iOS apps for real business needs.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">🛠️</div>
-                    <h3>Custom Software Solutions</h3>
-                    <div class="service-objective">Scalable tools for niche or business-specific problems.</div>
-                    <ul class="service-list">
-                        <li>ERP/CRM systems for small businesses</li>
-                        <li>Inventory & billing systems</li>
-                        <li>Booking & scheduling platforms</li>
-                        <li>Custom dashboards with reporting</li>
-                        <li>SaaS product MVPs</li>
-                    </ul>
+                    <h3>Custom Software</h3>
+                    <div class="service-objective">Tailored tools and platforms for your unique challenges.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">🛒</div>
-                    <h3>E-commerce Development</h3>
-                    <div class="service-objective">Launch, manage, and grow your online store.</div>
-                    <ul class="service-list">
-                        <li>Shopify/WooCommerce/Custom stores</li>
-                        <li>Print-on-demand store setup</li>
-                        <li>Dropshipping store development</li>
-                        <li>Payment gateway integration</li>
-                        <li>Backend inventory management</li>
-                    </ul>
+                    <h3>E-commerce</h3>
+                    <div class="service-objective">Launch and grow your online store with ease.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">🎨</div>
                     <h3>UI/UX Design</h3>
-                    <div class="service-objective">User-first designs that are beautiful and functional.</div>
-                    <ul class="service-list">
-                        <li>Wireframing & prototyping (Figma)</li>
-                        <li>App & web interface design</li>
-                        <li>Branding kits (logo, color schemes)</li>
-                        <li>Design audits for existing platforms</li>
-                        <li>Animation and micro-interaction design</li>
-                    </ul>
+                    <div class="service-objective">Beautiful, user-first designs for web and mobile.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">🚀</div>
-                    <h3>Tech Consultation for Startups</h3>
-                    <div class="service-objective">Right tech strategies from day one.</div>
-                    <ul class="service-list">
-                        <li>MVP development plans</li>
-                        <li>Cost-effective tech stack planning</li>
-                        <li>Growth & scaling roadmap</li>
-                        <li>Tech pitch decks for investors</li>
-                        <li>AI integration consultation</li>
-                    </ul>
+                    <h3>Tech Consultation</h3>
+                    <div class="service-objective">Expert advice for startups and scaling businesses.</div>
                 </div>
                 <div class="service">
                     <div class="service-icon">🔧</div>
                     <h3>Maintenance & Support</h3>
                     <div class="service-objective">Keep your platforms updated, secure, and reliable.</div>
-                    <ul class="service-list">
-                        <li>Bug fixes and uptime monitoring</li>
-                        <li>Feature updates and improvements</li>
-                        <li>Security patching</li>
-                        <li>Server and hosting support</li>
-                        <li>Monthly maintenance plans</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -181,12 +126,13 @@
         <div class="container">
             <h2>Let's Work Together</h2>
             <p>Ready to bring AI into your workflow? Contact us for a free consultation.</p>
-            <form action="mailto:leitcode@gmail.com" method="post">
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" placeholder="Your Message" required></textarea>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScqhH8PPl0xh5cbb112T0tMNerp24arsm-lebeynG6rJZd-xQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                <input type="text" name="entry.104371538" placeholder="Your Name" required />
+                <input type="email" name="entry.14487292" placeholder="Your Email" required />
+                <textarea name="entry.142766979" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn-primary">Send Message</button>
             </form>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
         </div>
     </section>
 
@@ -226,6 +172,28 @@
         link.addEventListener('click', () => {
             navLinks.classList.remove('active');
         });
+    });
+
+    var submitted = false;
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function(e) {
+      // Email validation
+      const emailInput = form.querySelector('input[type="email"]');
+      const emailValue = emailInput.value.trim();
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(emailValue)) {
+        alert('Please enter a valid email address.');
+        emailInput.focus();
+        e.preventDefault();
+        return false;
+      }
+      setTimeout(function() {
+        if (submitted) {
+          alert('Thank you! We have received your message and will get back to you soon.');
+          form.reset(); // This clears all fields
+          submitted = false; // Reset the flag for future submissions
+        }
+      }, 1000);
     });
     </script>
 </body>
